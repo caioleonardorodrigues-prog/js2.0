@@ -54,3 +54,27 @@ for( let i = 1; i <= 10; i++){
 
 // Funções
 
+let nome = "Caio"
+let idade = 15
+
+function dizerOi(nome, idade) {
+    return`Olá meu nome é ${nome}, e eu tenho ${idade} anos`
+}
+
+let nomeUsuario = "Caio"
+let idadeUsuario = 15
+let nomeUsuario2 = "Neymar"
+let idadeUsuario2 = 67
+
+console.log(dizerOi("Caio", 15))
+console.log(dizerOi("Neymar", 67))
+
+function somar(n1, n2){
+    return n1 + n2
+}
+
+let num1 = 6
+let num2 = 7
+let resultadoSoma = somar(num1, num2)
+
+console.log(resultadoSoma)
